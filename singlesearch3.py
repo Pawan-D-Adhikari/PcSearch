@@ -22,17 +22,18 @@ def first_search():
 def other_search():
     gui.PAUSE=2.5
     search_items = [
-    "best recipes for quick dinners",
-    "how to train for a marathon",
-    "latest space exploration news",
-    "tips for managing personal finances",
-    "top-rated video games 2024",
-    "how to improve public speaking skills",
-    "best cars for fuel efficiency",
-    "current fashion trends for winter",
-    "how to start a small business",
-    "health benefits of drinking green tea"
+    "most popular sports in the world",
+    "history of the Olympic Games",
+    "top esports tournaments in 2025",
+    "how virtual reality is changing gaming",
+    "best sports video games of all time",
+    "impact of AI in modern gaming",
+    "evolution of football tactics",
+    "psychology behind competitive gaming",
+    "highest-paid athletes in 2025",
+    "future of blockchain in gaming"
     ]
+
     for i in search_items:
         gui.moveTo(710,126,duration=1.5)
         

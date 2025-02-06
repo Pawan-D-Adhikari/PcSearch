@@ -21,18 +21,19 @@ def first_search():
     
 def other_search():
     gui.PAUSE=2.5
-    search_items= [
-    "best travel destinations for 2024",
-    "top-rated smartphones 2024",
-    "how to start a fitness routine",
-    "current trends in artificial intelligence",
-    "most anticipated movies of 2024",
-    "how to grow indoor plants",
-    "beginner's guide to meditation",
-    "latest advancements in renewable energy",
-    "top-selling books this year",
-    "how to learn a new language fast"
-]
+    search_items = [
+    "history of automobiles",
+    "latest car technologies",
+    "electric vs gasoline cars",
+    "how car engines work",
+    "top 10 safest cars in 2025",
+    "autonomous vehicle advancements",
+    "best fuel-efficient cars",
+    "future of hydrogen fuel cells",
+    "how hybrid cars function",
+    "most reliable car brands"
+    ]
+
     for i in search_items:
         gui.moveTo(710,126,duration=1.5)
         

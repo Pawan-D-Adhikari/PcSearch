@@ -21,17 +21,17 @@ def first_search():
     
 def other_search():
     gui.PAUSE=2.5
-    search_items=[
-    "latest Python 3.11 features",
-    "top programming languages 2024",
-    "best Python IDEs for beginners",
-    "Python data visualization libraries",
-    "how to use GitHub Copilot with Python",
-    "Python vs JavaScript for web development",
-    "examples of Python machine learning projects",
-    "most popular Python frameworks for 2024",
-    "tips for debugging Python code",
-    "how to deploy Python apps to the cloud"
+    search_items = [
+    "top political issues in 2025",
+    "latest global economic trends",
+    "impact of AI on politics",
+    "most influential world leaders today",
+    "rising political movements in 2025",
+    "social media's role in modern politics",
+    "climate change policies worldwide",
+    "future of cryptocurrency regulations",
+    "elections and political shifts in 2025",
+    "geopolitical conflicts and resolutions"
     ]
     for i in search_items:
         gui.moveTo(710,126,duration=1.5)
